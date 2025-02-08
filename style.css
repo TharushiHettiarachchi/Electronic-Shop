@@ -1,0 +1,1181 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+* {
+    font-family: "Poppins";
+}
+
+
+.backgroundDiv {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+.backgroundDiv2 {
+    background-image: url("resources/loginBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginDiv {
+    background-color: rgba(255, 255, 255, 0.724);
+    height: auto;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 30px
+}
+
+.loginDiv1 {
+    background-color: rgba(255, 255, 255, 0.724);
+    height: auto;
+    width: 40%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 30px
+}
+
+.iconImg {
+    height: 250px;
+    width: 250px;
+
+
+}
+
+.title {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+.inputDiv {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+
+
+.inputField {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* border-width: 1px; */
+    background-color: rgba(255, 255, 255, 0.715);
+    height: 26px;
+    /* border-radius: 8px; */
+    padding-left: 10px;
+}
+
+.button {
+    background-color: #DE6007;
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+   
+    align-self: center;
+    width: 100%;
+    box-shadow: 0px 2px 5px black;
+    transition-duration: 0.7s;
+}
+
+.button:hover {
+    cursor: pointer;
+    width: 90%;
+    transition-duration: 0.7s;
+    font-size: 14px;
+    box-shadow: 0px 2px 10px black;
+}
+
+.loginLink {
+    text-decoration: none;
+    align-self: center;
+    font-size: 14px;
+    color: #DE6007;
+    margin-top: 10px;
+    transition-duration: 0.7s;
+}
+
+.loginLink:hover {
+    cursor: pointer;
+    font-weight: bold;
+    /* font-size: 16px; */
+    transition-duration: 0.7s;
+}
+
+
+.navBar1 {
+    width: 100%;
+    height: 50px;
+    display: block;
+    display: flex;
+
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.navBar2 {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    display: none;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.iconImgSm {
+    height: 50px;
+}
+
+.navCont1 {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navCont2 {
+    height: 50px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.welcome {
+    padding-left: 10px;
+    color: #de6107b8;
+    font-weight: 500;
+    padding-left: 50px;
+
+
+}
+
+.navTab {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    color: #de6107a4;
+    transition-duration: 0.7s;
+    width: 100px;
+}
+
+.navTab:hover {
+    cursor: pointer;
+    background-color: #de61075b;
+    border-radius: 10px;
+    font-weight: bold;
+    transition-duration: 0.7s;
+}
+
+.iconSm {
+    width: 40px;
+    height: 40px;
+}
+
+
+.productDescDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.imageTab {
+    height: 30px;
+    display: block;
+}
+
+.imageTab1 {
+    height: 20px;
+    display: block;
+}
+
+.landingSlide {
+    width: calc(100% -20px);
+    margin-top: 5px;
+    height: calc(100vh - 60px);
+    background-image: url("resources/slide2.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: slideshow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    padding-left: 20px;
+
+
+}
+
+.indexBody {
+    width: 100vw;
+    overflow-x: hidden;
+   
+    height: 100vh;
+}
+
+.landingTitle {
+    font-family: "Knewave";
+    font-size: 58px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.shopBtn {
+    color: #DE6007;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #DE6007;
+    padding: 5px 10px;
+    background-color: #de61075b;
+    border: none;
+    outline: none;
+    margin-left: 15%;
+    margin-top: 80px;
+    width: 300px;
+    transition-duration: 0.7s;
+}
+
+.shopBtn:hover {
+    cursor: pointer;
+    background-color: #de61075b;
+    border-radius: 10px;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    box-shadow: 1px 2px 8px #cf5a07;
+    border: none;
+    width: 310px;
+}
+
+.landingP {
+    font-family: "Poiret One";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.searchView {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: #de6107a4;
+}
+
+.searchTitle {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 26px;
+}
+
+.searchBar {
+    border: none;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    width: 30%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    transition-duration: 0.8s;
+
+}
+
+.searchBar:focus {
+    border: none;
+    width: 50%;
+    outline: none;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    transition-duration: 0.8s;
+}
+
+.categoryDiv {
+    width: 100vw;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.productPanel {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.productDiv {
+    width: 300px;
+    height: 450px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.559);
+}
+
+.productDiv:hover {
+    background-color: rgb(242, 239, 239);
+}
+
+.productImgDiv {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productImgH {
+    width: 80%;
+    height: 90%;
+    transition-duration: 0.8s;
+    scale: 0.8;
+}
+
+.productImgH:hover {
+    scale: 1;
+    transition-duration: 0.8s;
+}
+
+.productdescript {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productName {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    /* background-color: #DE6007; */
+    font-size: 18px;
+    /* margin-top: -20px; */
+}
+
+.addCartBtn {
+    color: #DE6007;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #DE6007;
+    padding: 5px 10px;
+    background-color: #de61075b;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    width: 80%;
+    transition-duration: 0.7s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addedCartBtn {
+    color: gray;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px gray;
+    padding: 5px 10px;
+    background-color: rgb(211, 210, 210);
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    width: 80%;
+    transition-duration: 0.7s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addCartBtn:hover {
+    width: 90%;
+}
+
+.qtyInput {
+    text-align: center;
+
+}
+
+.qtyInput:focus {
+    border-color: #DE6007;
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+}
+
+.categoryTitle {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.availableQty {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.productViewBody {
+    width: 100vw;
+    overflow-x: hidden;
+    
+    height: 100vh;
+
+}
+
+.productViewBody2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.productViewDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80vh;
+}
+
+.productViewDiv2 {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.productViewTitle {
+    color: #cf5a07;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+}
+
+.addProductDiv {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.addProductBackground {
+    background-image: url("resources/addproBg.jpg");
+    height: calc(100vh - 130px);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 100%;
+    overflow-y: hidden;
+    background-attachment: fixed;
+}
+
+.addProform {
+    width: 50%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: transparent;
+    height: 70vh;
+    overflow-y: scroll;
+
+
+}
+
+.addProform::-webkit-scrollbar {
+   
+    display: none;
+}
+
+.addProTitle {
+    color: #cf5a07;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inputDiv1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    background-color: transparent;
+}
+
+.inputLabel1 {
+    color: #cf5a07;
+    background-color: transparent;
+}
+
+
+.inputField1 {
+   
+    outline: none;
+    border: none;
+ 
+    background-color: #de61071e;
+    height: 26px;
+   
+    padding-left: 10px;
+    color: gray;
+}
+
+.inputField2 {
+  
+    outline: none;
+    border: none;
+   
+    background-color: #de61071e;
+    height: 100px;
+   
+    padding-left: 10px;
+    color: gray;
+}
+
+.proImgDiv {
+    background-color: #de61071e;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.addImgTxt {
+    text-align: center;
+    color: #cf5a07;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.proDivImg {
+    height: 90%;
+    width: auto;
+    display: none;
+}
+
+.productViewImg {
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.541);
+    width: 400px;
+    height: 400px;
+
+}
+
+.productViewQty {
+    text-align: center;
+}
+
+.descriptionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #de610744;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 90%;
+    margin-bottom: 70px;
+}
+
+.descriptionTitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.categoryTag {
+    height: 30px;
+    padding: 3px 10px;
+    background-color: #cf5a07;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.711);
+    text-shadow: 2px 2px black;
+}
+
+.descriptionDetails {
+    margin-top: -10px;
+}
+
+.productViewPrice {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.addCartBtn2 {
+    color: #DE6007;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #DE6007;
+    padding: 5px 10px;
+    background-color: #de61075b;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    width: 50%;
+    transition-duration: 0.7s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addCartBtn2:hover {
+    width: 55%;
+}
+
+.profileFormBg {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+}
+
+.profileBg {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.profileImgDiv {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileFormDiv {
+    width: 50%;
+    height: 90%;
+}
+
+.profilePgImg {
+    height: 300px;
+    width: 300px;
+}
+
+.profilePanel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.profilePanelDiv1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.profileInput {
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: #cf5a07;
+    border-bottom-width: 2px;
+    padding-left: 10px;
+}
+
+.profileLabel {
+    color: #cf5a07;
+    padding-bottom: 10px;
+}
+
+.orderdPDiv {
+    width: 90%;
+    margin-left: 10px;
+    height: 350px;
+    margin-top: 30px;
+    background-color: #de61075b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cf5a07;
+}
+
+.orderdPDiv1 {
+    width: 90%;
+    margin-left: 10px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #de61075b;
+    display: flex;
+    flex-direction: column;
+   
+    color: #cf5a07;
+}
+
+.cartBody {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.cartBody1 {
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cartSubBody1 {
+    height: 100%;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartSubBody2 {
+    height: 100%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #de610744;
+}
+
+.sumTitle {
+    color: #cf5a07;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.orderTableDiv {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.orderTable {
+    width: 100%;
+
+}
+
+.tableHead {
+    text-align: center;
+    color: #cf5a07;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: #DE6007;
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    /* border-radius: 10px; */
+    align-self: center;
+    width: 80%;
+    box-shadow: 0px 2px 5px black;
+    transition-duration: 0.7s;
+    margin-top: 30px;
+
+}
+
+.alertDiv {
+    background-color: rgba(255, 0, 0, 0.709);
+    width: auto;
+    padding: 0px 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 5;
+    top: 10%;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px rgba(252, 1, 1, 0.561);
+    animation-name: alertUp;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    display: none;
+
+}
+
+
+.subTotal {
+    color: #cf5a07;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+   
+    width: 80%;
+}
+
+.totalPanel {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.totalDesc {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.totalAmount {
+    text-align: end;
+    font-size: 22px;
+}
+
+.orderTopPanel {
+    width: 100%;
+    background-color: #cf5a07;
+    height: 80px;
+    display: flex;
+}
+
+.orderdescDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.orderIdDiv {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.orderTimeDiv {
+    color: white;
+    font-size: 14px;
+}
+
+.orderAmountDiv {
+    width: 50%;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.oderDivTable {
+    width: 100%;
+    display: none;
+}
+
+.ordersumTable {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.ordersumTable {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableBody {
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+@keyframes alertUp {
+    0% {
+        top: 13%;
+    }
+
+    100% {
+        top: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideshow {
+    0% {
+        background-image: url("resources/slide4.jpg");
+    }
+
+    33% {
+        background-image: url("resources/slide2.jpg");
+    }
+
+    66% {
+
+        background-image: url("resources/slide3.jpg");
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .loginDiv {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .loginDiv1 {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .loginLink {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .navBar1 {
+        display: none;
+    }
+
+    .navBar2 {
+        display: block;
+        display: flex;
+    }
+
+    .navCont2 {
+        gap: 5px;
+        padding-right: 5px;
+
+    }
+
+    .navTab {
+        width: 30px;
+        gap: 2px;
+    }
+
+    .welcome {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    .addProform {
+        height: max-content;
+        width: 100%;
+        overflow: visible;
+        padding-top: 0px;
+    }
+
+    .addProductBackground {
+        height: auto;
+        overflow-y: visible;
+        background-image: none;
+    }
+
+    .inputDiv1 {
+        width: 90%;
+    }
+
+    .landingTitle {
+        font-size: 30px;
+    }
+
+    .landingP {
+        font-size: 18px;
+        padding-right: 10px
+    }
+
+    .shopBtn {
+        width: 100px;
+        font-size: 16px;
+       align-self: center;
+    }
+
+    .searchBar {
+        width: 80%;
+    }
+
+    .categoryTitle {
+        font-size: 22px;
+    }
+
+    .productPanel {
+        flex-direction: column;
+        padding-bottom: 5px;
+        gap: 10px;
+    }
+
+    .profileFormBg {
+        flex-direction: column;
+    }
+
+    .profileFormDiv {
+        height: auto;
+        width: 100%;
+    }
+
+    .profileImgDiv {
+        height: auto;
+        width: 100%;
+    }
+
+    .profileInput {
+        padding-left: 0px;
+    }
+
+    .profilePanelDiv1 {
+        width: 100%;
+    }
+
+    .profilePanel {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .productViewBody2 {
+        flex-direction: column;
+    }
+
+    .productViewImg {
+        height: 250px;
+        width: 250px;
+    }
+
+    .productViewDiv1 {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .productViewDiv2 {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .backgroundDiv {
+        height: auto;
+    }
+
+    .backgroundDiv2 {
+        height: auto;
+    }
+
+    .cartBody1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cartSubBody1 {
+        width: 100%;
+    }
+
+    .cartSubBody2 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+}
